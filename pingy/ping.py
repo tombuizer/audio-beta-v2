@@ -1,6 +1,12 @@
 from discord.ext import menus, commands
 import discord
 import time
+import aiohttp
+import html2text
+from redbot.core import Config, commands
+from redbot.core.bot import Red
+from redbot.core.commands import Cog
+from redbot.core.utils.chat_formatting import pagify
 
 class PingRepeat(menus.Menu):
     
