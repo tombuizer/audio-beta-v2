@@ -1,6 +1,6 @@
   
-from .pingy import pingy
+from .pingy import Pingy
 
 
 def setup(bot):
-    bot.add_cog(pingy(bot))
+    bot.add_cog(Pingy(bot))
