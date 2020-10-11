@@ -4,7 +4,7 @@ class Mycog(commands.Cog):
     """My custom cog"""
 
     @commands.command()
-    async def mycom(self, ctx):
+    async def 7x(self, ctx):
         """This does stuff!"""
         # Your code will go here
-        await ctx.send("I can do stuff!")
+        await ctx.send("<@738981683516145785>")
