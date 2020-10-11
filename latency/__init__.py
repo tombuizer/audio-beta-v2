@@ -1,5 +1,5 @@
-from .mycog import Latency
+from .mycog import Mycog
 
 
 def setup(bot):
-    bot.add_cog(Latency())
+    bot.add_cog(Mycog())
